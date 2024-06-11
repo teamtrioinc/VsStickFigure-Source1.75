@@ -1,0 +1,76 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"noteskinchangeOPPT",
+						"GLITCHNOTES",
+						""
+					],
+					[
+						"noteskinchangeBF",
+						"finaleNOTE_assets",
+						""
+					]
+				]
+			],
+			[
+				53777.7777777778,
+				[
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"geometryNEW"
+					],
+					[
+						"Change Character",
+						"0",
+						"sfnormalNEW"
+					],
+					[
+						"",
+						"",
+						""
+					]
+				]
+			],
+			[
+				53777.7777777778,
+				[
+					[
+						"Change Character",
+						"0",
+						"sfNORMALNEWplayable"
+					]
+				]
+			],
+			[
+				89777.7777777777,
+				[
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"corruptionbf"
+					],
+					[
+						"Change Character",
+						"0",
+						"sfPREWORRIEDplayable"
+					]
+				]
+			]
+		]
+	}
+}

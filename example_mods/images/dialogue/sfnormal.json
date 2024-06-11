@@ -1,0 +1,38 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		0,
+		50
+	],
+	"no_antialiasing": false,
+	"scale": 1.95,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				-220,
+				-151
+			],
+			"idle_offsets": [
+				-221,
+				-152
+			],
+			"loop_name": "normal bop",
+			"idle_name": "normal bop end"
+		},
+		{
+			"idle_offsets": [
+				-125,
+				-122
+			],
+			"anim": "confused",
+			"loop_offsets": [
+				-123,
+				-120
+			],
+			"idle_name": "normal bop confused",
+			"loop_name": "normal bop confused"
+		}
+	],
+	"image": "sfnormal"
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sf.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="angry0000" x="0" y="0" width="196" height="334"/>
+	<SubTexture name="cry0000" x="199" y="0" width="175" height="292"/>
+	<SubTexture name="happy0000" x="377" y="0" width="175" height="292"/>
+	<SubTexture name="pissed0000" x="555" y="0" width="179" height="292"/>
+	<SubTexture name="sad0000" x="737" y="0" width="185" height="292"/>
+</TextureAtlas>

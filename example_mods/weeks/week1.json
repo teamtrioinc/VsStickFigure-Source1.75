@@ -1,0 +1,59 @@
+{
+	"storyName": "sticking around",
+	"difficulties": "Normal, Hard",
+	"hideFreeplay": false,
+	"weekBackground": "sf",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"comical",
+			"sfnormal",
+			[
+				166,
+				153,
+				173
+			]
+		],
+		[
+			"worried",
+			"sfworried",
+			[
+				146,
+				133,
+				153
+			]
+		],
+		[
+			"deathray",
+			"sfgod",
+			[
+				86,
+				73,
+				93
+			]
+		],
+		[
+			"after-it-all",
+			"sfsad",
+			[
+				126,
+				113,
+				93
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "stick figure",
+	"hiddenUntilUnlocked": false
+}

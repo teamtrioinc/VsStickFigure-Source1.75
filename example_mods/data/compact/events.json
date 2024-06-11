@@ -1,0 +1,56 @@
+{
+	"song": {
+		"events": [
+			[
+				106666.666666667,
+				[
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"deepsf"
+					],
+					[
+						"Change Character",
+						"0",
+						"sf worried"
+					],
+					[
+						"bgchange",
+						"theirmind",
+						"theirmind"
+					]
+				]
+			],
+			[
+				120888.888888889,
+				[
+					[
+						"Change Character",
+						"1",
+						"the chooser"
+					],
+					[
+						"Change Character",
+						"0",
+						"sfWORRIEDDnew playable"
+					],
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					],
+					[
+						"bgremove",
+						"theirmind",
+						""
+					]
+				]
+			]
+		]
+	}
+}

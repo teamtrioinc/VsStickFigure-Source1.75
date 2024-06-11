@@ -1,0 +1,92 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "why the hell are we still in this universe"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "stickfigure",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "fwelkjwfekjlewfjklwefjweflkjfwfkljweflkjw\\njfkjfjkhdsfjkhdsjfkdfjhsdfjkhdsfkjhdsfkhs\\nBWAHAHAHAHAHAHAHAHAHA"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "what are you even saying bruh"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "stickfigure",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "isnt it 2008 rn"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "are you retarded? hell nah dawg"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "worriedsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "boom bam kabop"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bruh bruh bruh bruh brubh fhueidsjifbhsij"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ready to die"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "not this shit again"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "seth",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "seth",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "WHEREAMIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"
+		}
+	]
+}

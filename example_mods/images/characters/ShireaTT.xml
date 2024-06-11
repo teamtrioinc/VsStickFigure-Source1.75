@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ShireaTT.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="shirea down0000" x="0" y="0" width="681" height="1020" frameX="0" frameY="0" frameWidth="681" frameHeight="1024"/>
+	<SubTexture name="shirea down0001" x="681" y="0" width="667" height="1019" frameX="0" frameY="-5" frameWidth="681" frameHeight="1024"/>
+	<SubTexture name="shirea down0002" x="1348" y="0" width="657" height="1012" frameX="0" frameY="-12" frameWidth="681" frameHeight="1024"/>
+	<SubTexture name="shirea idle0000" x="2005" y="0" width="672" height="1020" frameX="-5" frameY="0" frameWidth="720" frameHeight="1020"/>
+	<SubTexture name="shirea idle0001" x="2677" y="0" width="720" height="1009" frameX="0" frameY="-5" frameWidth="720" frameHeight="1020"/>
+	<SubTexture name="shirea idle0002" x="3397" y="0" width="663" height="997" frameX="-14" frameY="-10" frameWidth="720" frameHeight="1020"/>
+	<SubTexture name="shirea idle0003" x="4060" y="0" width="701" height="993" frameX="-9" frameY="-5" frameWidth="720" frameHeight="1020"/>
+	<SubTexture name="shirea idle0004" x="4761" y="0" width="683" height="997" frameX="-9" frameY="-5" frameWidth="720" frameHeight="1020"/>
+	<SubTexture name="shirea left0000" x="5444" y="0" width="874" height="1038" frameX="-34" frameY="0" frameWidth="914" frameHeight="1038"/>
+	<SubTexture name="shirea left0001" x="6318" y="0" width="894" height="1038" frameX="-16" frameY="0" frameWidth="914" frameHeight="1038"/>
+	<SubTexture name="shirea left0002" x="7212" y="0" width="914" height="1038"/>
+	<SubTexture name="shirea left0003" x="0" y="1038" width="903" height="1038" frameX="-4" frameY="0" frameWidth="914" frameHeight="1038"/>
+	<SubTexture name="shirea right0000" x="903" y="1038" width="871" height="1025" frameX="0" frameY="0" frameWidth="903" frameHeight="1025"/>
+	<SubTexture name="shirea right0001" x="1774" y="1038" width="875" height="1025" frameX="-10" frameY="0" frameWidth="903" frameHeight="1025"/>
+	<SubTexture name="shirea right0002" x="2649" y="1038" width="871" height="1025" frameX="-32" frameY="0" frameWidth="903" frameHeight="1025"/>
+	<SubTexture name="shirea up0000" x="3520" y="1038" width="723" height="1031" frameX="0" frameY="-8" frameWidth="723" frameHeight="1042"/>
+	<SubTexture name="shirea up0001" x="4243" y="1038" width="707" height="1036" frameX="0" frameY="-6" frameWidth="723" frameHeight="1042"/>
+	<SubTexture name="shirea up0002" x="4950" y="1038" width="674" height="1040" frameX="0" frameY="0" frameWidth="723" frameHeight="1042"/>
+</TextureAtlas>

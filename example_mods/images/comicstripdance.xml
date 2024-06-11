@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="comicstripdance.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bop0000" x="0" y="0" width="1522" height="637" frameX="0" frameY="-106" frameWidth="1522" frameHeight="790"/>
+	<SubTexture name="bop0001" x="0" y="0" width="1522" height="637" frameX="0" frameY="-106" frameWidth="1522" frameHeight="790"/>
+	<SubTexture name="bop0002" x="1525" y="0" width="1441" height="698" frameX="-41" frameY="-63" frameWidth="1522" frameHeight="790"/>
+	<SubTexture name="bop0003" x="1525" y="0" width="1441" height="698" frameX="-41" frameY="-63" frameWidth="1522" frameHeight="790"/>
+	<SubTexture name="bop0004" x="0" y="701" width="1389" height="786" frameX="-71" frameY="0" frameWidth="1522" frameHeight="790"/>
+	<SubTexture name="bop0005" x="0" y="701" width="1389" height="786" frameX="-71" frameY="0" frameWidth="1522" frameHeight="790"/>
+	<SubTexture name="bop0006" x="1392" y="701" width="1367" height="790" frameX="-87" frameY="0" frameWidth="1522" frameHeight="790"/>
+	<SubTexture name="bop0007" x="1392" y="701" width="1367" height="790" frameX="-87" frameY="0" frameWidth="1522" frameHeight="790"/>
+</TextureAtlas>

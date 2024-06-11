@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-200,
+				129
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-259,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-357,
+				182
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-356,
+				147
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-139,
+				139
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-359,
+				157
+			],
+			"anim": "swing",
+			"fps": 24,
+			"name": "swing",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/breakdownsfnew",
+	"position": [
+		80,
+		450
+	],
+	"healthicon": "breakdownsf",
+	"flip_x": false,
+	"healthbar_colors": [
+		163,
+		0,
+		0
+	],
+	"camera_position": [
+		-10,
+		-290
+	],
+	"sing_duration": 4,
+	"scale": 2.8
+}

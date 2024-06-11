@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"sound": "sethtalk",
+			"speed": 0.05,
+			"portrait": "normalseth",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "woohoo"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.05,
+			"portrait": "normalseth",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "imma invite stick figure"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "NOOO"
+		},
+		{
+			"sound": "sftalk",
+			"speed": 0.05,
+			"portrait": "sfnormal",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hey wassup gang"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "oh god no"
+		},
+		{
+			"sound": "sftalk",
+			"speed": 0.05,
+			"portrait": "sfnormal",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "oh its you"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.15,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I WILL KILL YOU AND YOUR GIRLFRIEND"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "uh oh"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.05,
+			"portrait": "seth",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "HEY"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.05,
+			"portrait": "seth",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "LETS NOT DO THAT!"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "fine."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": " "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "*to self* i got a bad feeling about this, i'm outta this place"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "LETS DO THIS!"
+		}
+	]
+}

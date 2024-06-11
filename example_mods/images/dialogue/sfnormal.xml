@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sfnormal.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="normal bop0000" x="0" y="0" width="124" height="187" frameX="0" frameY="0" frameWidth="128" frameHeight="189"/>
+	<SubTexture name="normal bop0001" x="0" y="0" width="124" height="187" frameX="0" frameY="0" frameWidth="128" frameHeight="189"/>
+	<SubTexture name="normal bop0002" x="124" y="0" width="124" height="186" frameX="-1" frameY="-3" frameWidth="128" frameHeight="189"/>
+	<SubTexture name="normal bop0003" x="124" y="0" width="124" height="186" frameX="-1" frameY="-3" frameWidth="128" frameHeight="189"/>
+	<SubTexture name="normal bop0004" x="248" y="0" width="124" height="184" frameX="-4" frameY="-4" frameWidth="128" frameHeight="189"/>
+	<SubTexture name="normal bop0005" x="248" y="0" width="124" height="184" frameX="-4" frameY="-4" frameWidth="128" frameHeight="189"/>
+	<SubTexture name="normal bop0006" x="372" y="0" width="124" height="186" frameX="-4" frameY="-2" frameWidth="128" frameHeight="189"/>
+	<SubTexture name="normal bop0007" x="372" y="0" width="124" height="186" frameX="-4" frameY="-2" frameWidth="128" frameHeight="189"/>
+	<SubTexture name="normal bop confused0000" x="496" y="0" width="187" height="205" frameX="0" frameY="0" frameWidth="194" frameHeight="207"/>
+	<SubTexture name="normal bop confused0001" x="496" y="0" width="187" height="205" frameX="0" frameY="0" frameWidth="194" frameHeight="207"/>
+	<SubTexture name="normal bop confused0002" x="683" y="0" width="187" height="206" frameX="-3" frameY="-1" frameWidth="194" frameHeight="207"/>
+	<SubTexture name="normal bop confused0003" x="683" y="0" width="187" height="206" frameX="-3" frameY="-1" frameWidth="194" frameHeight="207"/>
+	<SubTexture name="normal bop confused0004" x="0" y="206" width="189" height="205" frameX="-5" frameY="-2" frameWidth="194" frameHeight="207"/>
+	<SubTexture name="normal bop confused0005" x="0" y="206" width="189" height="205" frameX="-5" frameY="-2" frameWidth="194" frameHeight="207"/>
+	<SubTexture name="normal bop confused0006" x="683" y="0" width="187" height="206" frameX="-3" frameY="-1" frameWidth="194" frameHeight="207"/>
+	<SubTexture name="normal bop confused0007" x="683" y="0" width="187" height="206" frameX="-3" frameY="-1" frameWidth="194" frameHeight="207"/>
+	<SubTexture name="normal bop confused end0000" x="496" y="0" width="187" height="205" frameX="0" frameY="0" frameWidth="194" frameHeight="207"/>
+	<SubTexture name="normal bop confused end0001" x="496" y="0" width="187" height="205" frameX="0" frameY="0" frameWidth="194" frameHeight="207"/>
+	<SubTexture name="normal bop end0000" x="0" y="0" width="124" height="187" frameX="0" frameY="0" frameWidth="128" frameHeight="189"/>
+	<SubTexture name="normal bop end0001" x="0" y="0" width="124" height="187" frameX="0" frameY="0" frameWidth="128" frameHeight="189"/>
+</TextureAtlas>

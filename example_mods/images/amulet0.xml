@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="amulet0.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lightning0000" x="0" y="0" width="518" height="1679"/>
+	<SubTexture name="lightning0001" x="0" y="0" width="518" height="1679"/>
+	<SubTexture name="lightning0002" x="518" y="0" width="518" height="1679"/>
+	<SubTexture name="lightning0003" x="518" y="0" width="518" height="1679"/>
+	<SubTexture name="lightning0004" x="1036" y="0" width="518" height="1679"/>
+	<SubTexture name="lightning0005" x="1036" y="0" width="518" height="1679"/>
+	<SubTexture name="lightning0006" x="1554" y="0" width="518" height="1679"/>
+	<SubTexture name="lightning0007" x="1554" y="0" width="518" height="1679"/>
+</TextureAtlas>

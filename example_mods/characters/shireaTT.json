@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				20
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "shirea idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				130,
+				24
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "shirea down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				137,
+				40
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "shirea up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				236,
+				32
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "shirea right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				140,
+				40
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "shirea left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/shireatt",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "shirea",
+	"flip_x": false,
+	"healthbar_colors": [
+		160,
+		60,
+		20
+	],
+	"camera_position": [
+		-120,
+		340
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5
+}

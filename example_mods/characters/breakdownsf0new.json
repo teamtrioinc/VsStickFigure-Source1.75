@@ -1,0 +1,112 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-163,
+				81
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-180,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-177,
+				99
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-176,
+				83
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-176,
+				81
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-229,
+				77
+			],
+			"anim": "swing",
+			"fps": 24,
+			"name": "swing",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-81,
+				90
+			],
+			"indices": [
+				1,
+				1,
+				1,
+				2,
+				2,
+				3,
+				3,
+				4,
+				4,
+				5,
+				5
+			],
+			"fps": 24,
+			"anim": "reveal",
+			"loop": false,
+			"name": "reveal"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/breakdownsfnewhideout",
+	"position": [
+		60,
+		470
+	],
+	"healthicon": "breakdownsf",
+	"flip_x": false,
+	"healthbar_colors": [
+		163,
+		0,
+		0
+	],
+	"camera_position": [
+		70,
+		-310
+	],
+	"sing_duration": 4,
+	"scale": 2.8
+}

@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-113,
+				129
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-115,
+				108
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-230,
+				315
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-176,
+				149
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-176,
+				111
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				139,
+				737
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "fall",
+			"loop": false,
+			"name": "fall"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/irlmickey",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mickeyirl",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-130,
+		-210
+	],
+	"sing_duration": 4,
+	"scale": 1.5
+}

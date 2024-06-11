@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				179,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-120,
+				-11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-318,
+				163
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-109,
+				407
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-170,
+				240
+			],
+			"anim": "sethintro",
+			"fps": 24,
+			"name": "no",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-170,
+				240
+			],
+			"anim": "sethintroloop",
+			"fps": 24,
+			"name": "no-forever",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-96,
+				241
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sfbreak3",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "sfgb",
+	"flip_x": false,
+	"healthbar_colors": [
+		41,
+		38,
+		44
+	],
+	"camera_position": [
+		-160,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1.5
+}

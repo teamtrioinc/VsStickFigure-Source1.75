@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-103,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-220,
+				-220
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-103,
+				145
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-222,
+				-64
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				64,
+				30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/whotfisthis",
+	"position": [
+		0,
+		310
+	],
+	"healthicon": "jude",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		70,
+		0
+	],
+	"camera_position": [
+		-30,
+		-70
+	],
+	"sing_duration": 4,
+	"scale": 2.8
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-189,
+				141
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-151,
+				138
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-129,
+				169
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-69,
+				138
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-217,
+				262
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/SETH",
+	"position": [
+		-110,
+		350
+	],
+	"healthicon": "seth",
+	"flip_x": false,
+	"healthbar_colors": [
+		101,
+		61,
+		0
+	],
+	"camera_position": [
+		-280,
+		-70
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

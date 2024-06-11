@@ -1,0 +1,4 @@
+VALUE 1: X POSITION
+VALUE 2: Y POSITION
+
+Credits to Lapis_Jude

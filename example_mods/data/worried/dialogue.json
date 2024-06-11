@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"sound": "sftalk",
+			"speed": 0.05,
+			"portrait": "worriedsf",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "oh shit"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "what"
+		},
+		{
+			"sound": "sftalk",
+			"speed": 0.05,
+			"portrait": "worriedsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "i just like fucking shit myself"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "ew wtf"
+		},
+		{
+			"sound": "",
+			"speed": 0.1,
+			"portrait": "worriedsf",
+			"boxState": "angry",
+			"expression": "pissed",
+			"text": "what the fuck did you just say to me"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "im sorry but thats just gross why u gotta\\ndo that"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "worriedsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "idk it just happened"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"song": {
+		"events": [
+			[
+				46080,
+				[
+					[
+						"Cinematics(v3.1)",
+						"80, 1",
+						"1"
+					],
+					[
+						"Change Character",
+						"Dad",
+						"sfnormalNEWGOD"
+					],
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					]
+				]
+			],
+			[
+				78720,
+				[
+					[
+						"Cinematics(v3.1)",
+						"0, 2",
+						"1"
+					]
+				]
+			],
+			[
+				80640,
+				[
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					],
+					[
+						"Change Character",
+						"Dad",
+						"sfnormalNEW"
+					]
+				]
+			],
+			[
+				111360,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"sfPREWORRIED"
+					]
+				]
+			],
+			[
+				113280,
+				[
+					[
+						"Change Character",
+						"BF",
+						"scared bf"
+					]
+				]
+			]
+		]
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "cuh bam you fucked now i beat you\\nAGAIN!!!!!!!!! HAHAHAHAHAHAHahAHHAHAHAJHDSKJHSDKHJFKJDHSFJSDHFKJDHSFKJH"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.13,
+			"portrait": "godsf",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "I WILL NOT LET YOU WIN THIS."
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.015,
+			"portrait": "him",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "i will fuck your house"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "please dont"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.1,
+			"portrait": "godsf",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "if you win, i will fucking kill myself, if i win you will be known as a bitch"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "ok"
+		}
+	]
+}

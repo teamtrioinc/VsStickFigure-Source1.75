@@ -1,0 +1,4 @@
+(REMEMBER, I DON'T MADE IT, IT WAS FROM DELETED MOD THAT I DON'T OWN)
+
+Value 1 = How much health to drain when opponent sings (0.5 is recommended)
+Value 2 = How much health to stop draining health (0.01 recommended)

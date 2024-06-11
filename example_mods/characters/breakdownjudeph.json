@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				100,
+				491
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				55,
+				466
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				27,
+				535
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				24,
+				493
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				30,
+				490
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "dodge"
+		},
+		{
+			"offsets": [
+				24,
+				491
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/breakdownjudeph",
+	"position": [
+		-100,
+		500
+	],
+	"healthicon": "jude",
+	"flip_x": true,
+	"healthbar_colors": [
+		175,
+		70,
+		0
+	],
+	"camera_position": [
+		-220,
+		-170
+	],
+	"sing_duration": 4,
+	"scale": 0.45
+}

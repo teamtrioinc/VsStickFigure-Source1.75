@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "tf these ppl are nuts"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "yes bae"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.1,
+			"portrait": "seth",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "WOAH!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "who tf are you"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.105,
+			"portrait": "normalseth",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "aren't you that one guy that uhhhh did theat one rap and then yea ddid it uhhhh mmmmm ermmm yea."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yuh"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.1,
+			"portrait": "normalseth",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "then lets rap"
+		}
+	]
+}

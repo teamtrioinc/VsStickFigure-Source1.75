@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"sound": "sftalkgod",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "y'know, I don't like doing thisp"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "kys"
+		},
+		{
+			"sound": "w",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": ""
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "IMGOINGTOFUCKINGKILLYOUANDYOURFAMILYHAHAHAHAHAHAHAHHHHHHHHHHHHHHHHHHHHHHHH"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "cool"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"song": {
+		"events": [
+			[
+				60000,
+				[
+					[
+						"Fade Screen",
+						"0",
+						"1"
+					]
+				]
+			],
+			[
+				75428.5714285715,
+				[
+					[
+						"Fade Screen",
+						"0",
+						"0"
+					],
+					[
+						"Change Character",
+						"Dad",
+						"sfpibbyPLACEHOLDER"
+					]
+				]
+			]
+		]
+	}
+}

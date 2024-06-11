@@ -1,0 +1,36 @@
+{
+	"storyName": "",
+	"difficulties": "insane",
+	"hideFreeplay": true,
+	"weekBackground": "finale",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"plagerized",
+			"green",
+			[
+				0,
+				50,
+				0
+			]
+		],
+		[
+			"???",
+			"sfgod",
+			[
+				20,
+				20,
+				20
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "FINALE"
+}

@@ -1,0 +1,1 @@
+ setProperty('gf.visible', false) --true

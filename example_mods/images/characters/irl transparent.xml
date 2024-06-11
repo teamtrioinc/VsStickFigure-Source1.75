@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="irl.png">
+<SubTexture name="irl idle0000" x="4320" y="5760" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl idle0001" x="5400" y="5760" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl idle0002" x="6480" y="5760" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl idle0003" x="7560" y="5760" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl idle0004" x="8640" y="0" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl idle0005" x="8640" y="1920" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl idle0006" x="8640" y="3840" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl idle0007" x="8640" y="5760" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl idle0008" x="0" y="7680" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl idle0009" x="1080" y="7680" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl idle0010" x="2160" y="7680" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl left0000" x="0" y="0" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl left0001" x="1080" y="0" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl left0002" x="2160" y="0" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl left0003" x="3240" y="0" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl left0004" x="0" y="1920" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl left0005" x="1080" y="1920" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl left0006" x="2160" y="1920" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl left0007" x="3240" y="1920" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl down0000" x="4320" y="0" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl down0001" x="4320" y="1920" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl down0002" x="5400" y="0" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl up0000" x="7560" y="0" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl up0001" x="7560" y="1920" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl up0002" x="7560" y="3840" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl up0003" x="0" y="5760" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl up0004" x="1080" y="5760" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl up0005" x="2160" y="5760" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl up0006" x="3240" y="5760" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl right0000" x="5400" y="1920" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl right0001" x="0" y="3840" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl right0002" x="1080" y="3840" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl right0003" x="2160" y="3840" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl right0004" x="3240" y="3840" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl right0005" x="4320" y="3840" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl right0006" x="5400" y="3840" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl right0007" x="6480" y="0" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl right0008" x="6480" y="1920" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+<SubTexture name="irl right0009" x="6480" y="3840" width="1080" height="1920" frameX="0" frameY="0" frameWidth="1080" frameHeight="1920" />
+</TextureAtlas>

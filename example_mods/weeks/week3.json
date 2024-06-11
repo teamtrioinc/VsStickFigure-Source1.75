@@ -1,0 +1,44 @@
+{
+	"storyName": "mexican friends hit different",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "nicolas",
+	"weekBefore": "week7",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"graphics",
+			"nicolas",
+			[
+				234,
+				111,
+				28
+			]
+		],
+		[
+			"platonic",
+			"nicolas",
+			[
+				234,
+				111,
+				28
+			]
+		],
+		[
+			"kill that man",
+			"nicolas",
+			[
+				234,
+				111,
+				28
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week Nicolas"
+}

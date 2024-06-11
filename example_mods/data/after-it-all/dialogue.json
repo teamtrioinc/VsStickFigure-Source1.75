@@ -1,0 +1,100 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.06,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "AAAAAAAAAAA SHIT I WON BUT AHHHHHHHHHHHHHHHHHHHHHHHH"
+		},
+		{
+			"sound": "",
+			"speed": 0,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "*fucking dies*"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ahahahahahahahahahahahahah whose the \\nloser now!!!!!!!"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "NOT ME! BWAHAHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.05,
+			"portrait": "seth",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "A"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "what the fuck"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.05,
+			"portrait": "seth",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "A"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "tf is u ass doing here"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.05,
+			"portrait": "seth",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "A"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "okay"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.05,
+			"portrait": "seth",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "holy shit your eyes look like piss"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.05,
+			"portrait": "godsf",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "OH MY GOD I WILL FUCKING KILL YOU NOW YOUBITCH\\nASS FUCKING BITCH"
+		}
+	]
+}

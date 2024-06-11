@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-10,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-39,
+				247
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				200
+			],
+			"anim": "sethintro",
+			"fps": 24,
+			"name": "no",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				176
+			],
+			"anim": "sethintroloop",
+			"fps": 24,
+			"name": "no-forever",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-96,
+				241
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				189,
+				80
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-158,
+				213
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/godsfnew",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "sfgod",
+	"flip_x": false,
+	"healthbar_colors": [
+		250,
+		255,
+		0
+	],
+	"camera_position": [
+		-160,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1.5
+}

@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-168,
+				513
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-225,
+				511
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-200,
+				597
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				512
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-115,
+				512
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				40,
+				560
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "dead",
+			"indices": [],
+			"name": "fuckingdies"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				179,
+				772
+			],
+			"anim": "gameover",
+			"fps": 24,
+			"name": "mario gameover",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/irlglitch",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "judeirlangry",
+	"flip_x": false,
+	"healthbar_colors": [
+		31,
+		30,
+		26
+	],
+	"camera_position": [
+		-70,
+		-510
+	],
+	"sing_duration": 4,
+	"scale": 1.5
+}

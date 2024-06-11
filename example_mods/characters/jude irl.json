@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-30,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "irl left"
+		},
+		{
+			"offsets": [
+				-30,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "irl down"
+		},
+		{
+			"offsets": [
+				-30,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "irl up"
+		},
+		{
+			"offsets": [
+				-30,
+				129
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "irl right"
+		},
+		{
+			"offsets": [
+				-30,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "irl idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/irl",
+	"position": [
+		-330,
+		-520
+	],
+	"healthicon": "judeirl",
+	"flip_x": false,
+	"healthbar_colors": [
+		151,
+		130,
+		106
+	],
+	"camera_position": [
+		140,
+		560
+	],
+	"sing_duration": 4,
+	"scale": 0.5
+}

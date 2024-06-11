@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"sound": "sethtalk",
+			"speed": 0.1,
+			"portrait": "normalseth",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "that was fun! can we do it again?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yes"
+		},
+		{
+			"sound": "sethtalk",
+			"speed": 0.05,
+			"portrait": "normalseth",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "YAYAYAYAYYAYA"
+		}
+	]
+}

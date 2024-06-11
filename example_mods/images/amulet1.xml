@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="amulet1.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="amulet0000" x="0" y="0" width="492" height="447"/>
+	<SubTexture name="amulet0001" x="492" y="0" width="492" height="447"/>
+	<SubTexture name="amulet0002" x="984" y="0" width="492" height="447"/>
+	<SubTexture name="amulet0003" x="1476" y="0" width="492" height="447"/>
+	<SubTexture name="amulet0004" x="0" y="447" width="492" height="447"/>
+	<SubTexture name="amulet0005" x="492" y="447" width="492" height="447"/>
+	<SubTexture name="amulet0006" x="984" y="447" width="492" height="447"/>
+	<SubTexture name="amulet0007" x="1476" y="447" width="492" height="447"/>
+	<SubTexture name="amulet0008" x="0" y="894" width="492" height="447"/>
+	<SubTexture name="amulet0009" x="492" y="894" width="492" height="447"/>
+	<SubTexture name="amulet0010" x="984" y="894" width="492" height="447"/>
+	<SubTexture name="amulet0011" x="1476" y="894" width="492" height="447"/>
+	<SubTexture name="amulet0012" x="492" y="894" width="492" height="447"/>
+	<SubTexture name="amulet0013" x="984" y="894" width="492" height="447"/>
+	<SubTexture name="amulet0014" x="1476" y="894" width="492" height="447"/>
+</TextureAtlas>

@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"sound": "sftalk",
+			"speed": 0.05,
+			"portrait": "stickfigure",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hi"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "no"
+		},
+		{
+			"sound": "sftalk",
+			"speed": 0.05,
+			"portrait": "stickfigure",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "oh"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "where are we"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeahhh, beep boop and that kinda shit"
+		},
+		{
+			"sound": "sftalk",
+			"speed": 0.05,
+			"portrait": "stickfigure",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "idk,"
+		},
+		{
+			"sound": "sftalk",
+			"speed": 0.15,
+			"portrait": "stickfigure",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "what do you think you dumb bitch"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "idk"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "stickfigure",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "okay"
+		},
+		{
+			"sound": "sftalkgod",
+			"speed": 0.015,
+			"portrait": "him",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "AAKEFLKJESLFKJSELFKJSEFLKJ#@$*)#@$)(*)#$()*@%(*@%)(*@%)(*@$)(%*@$)(*)$@*)$@(*  "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "uhhhhhhhh"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "u good?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "stickfigure",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah sure lets do this!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "okie dokie"
+		}
+	]
+}

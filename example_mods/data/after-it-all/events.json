@@ -1,0 +1,71 @@
+{
+	"song": {
+		"events": [
+			[
+				107142.857142857,
+				[
+					[
+						"bgchange",
+						"comicfog",
+						"comicfog"
+					],
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"sf worried"
+					],
+					[
+						"Change Character",
+						"BF",
+						"sethplayer"
+					]
+				]
+			],
+			[
+				107142.857142857,
+				[
+					[
+						"zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				107142.857142857,
+				[
+					[
+						"shadertrue",
+						"",
+						""
+					],
+					[
+						"bgremove",
+						"comicglitch",
+						""
+					],
+					[
+						"bgremove",
+						"comicglitch0",
+						""
+					],
+					[
+						"bgremove",
+						"comicglitch1",
+						""
+					],
+					[
+						"bgremove",
+						"comicglitch2",
+						""
+					]
+				]
+			]
+		]
+	}
+}

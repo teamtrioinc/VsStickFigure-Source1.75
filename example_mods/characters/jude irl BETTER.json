@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-168,
+				513
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-225,
+				511
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-200,
+				597
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-195,
+				512
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-115,
+				512
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				40,
+				560
+			],
+			"anim": "dead",
+			"fps": 24,
+			"name": "fuckingdies",
+			"indices": []
+		},
+		{
+			"offsets": [
+				179,
+				772
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "gameover",
+			"loop": true,
+			"name": "mario gameover"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/irlbetter",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "judeirl",
+	"flip_x": false,
+	"healthbar_colors": [
+		171,
+		130,
+		106
+	],
+	"camera_position": [
+		-70,
+		-510
+	],
+	"sing_duration": 4,
+	"scale": 1.5
+}

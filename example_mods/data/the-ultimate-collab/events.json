@@ -1,0 +1,46 @@
+{
+	"song": {
+		"events": [
+			[
+				273600,
+				[
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					],
+					[
+						"Change Character",
+						"Dad",
+						"sethGOD"
+					],
+					[
+						"Change Character",
+						"GF",
+						"sfnormalNEWGOD"
+					],
+					[
+						"bgremove",
+						"sethshouse",
+						""
+					],
+					[
+						"bgchange",
+						"sethshousesky0",
+						"sethshousesky0"
+					],
+					[
+						"bgchange",
+						"sethshousesky1",
+						"sethshousesky1"
+					],
+					[
+						"Cam Boom Speed",
+						"1",
+						"2"
+					]
+				]
+			]
+		]
+	}
+}

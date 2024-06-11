@@ -1,0 +1,50 @@
+{
+	"storyName": "sonic is cool",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "seth",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"surprise",
+			"seth",
+			[
+				155,
+				53,
+				0
+			]
+		],
+		[
+			"dime",
+			"seth",
+			[
+				155,
+				53,
+				0
+			]
+		],
+		[
+			"the-ultimate-collab",
+			"sethandstickfigure",
+			[
+				155,
+				53,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "seth"
+}
