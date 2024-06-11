@@ -2167,7 +2167,8 @@ class ChartingState extends MusicBeatState
 
 	var waveformPrinted:Bool = true;
 	var wavData:Array<Array<Array<Float>>> = [[[0], [0]], [[0], [0]]];
-	function updateWaveform() {
+	function updateWaveform() 
+	{
 		#if desktop
 		if(waveformPrinted) {
 			waveformSprite.makeGraphic(Std.int(GRID_SIZE * 8), Std.int(gridBG.height), 0x00FFFFFF);
@@ -2175,7 +2176,8 @@ class ChartingState extends MusicBeatState
 		}
 		waveformPrinted = false;
 
-		if(!FlxG.save.data.chart_waveformInst && !FlxG.save.data.chart_waveformVoices) {
+		if(!FlxG.save.data.chart_waveformInst && !FlxG.save.data.chart_waveformVoices)
+		{
 			//trace('Epic fail on the waveform lol');
 			return;
 		}
@@ -2189,10 +2191,13 @@ class ChartingState extends MusicBeatState
 		var st:Float = sectionStartTime();
 		var et:Float = st + (Conductor.stepCrochet * steps);
 
-		@:privateAccess {
-		{if (FlxG.save.data.chart_waveformInst) {
+		@:privateAccess
+		{
+		if (FlxG.save.data.chart_waveformInst)
+		{
 			var sound:FlxSound = FlxG.sound.music;
-			if (sound._sound != null && sound._sound.__buffer != null) {
+			if (sound._sound != null && sound._sound.__buffer != null)
+			{
 				var bytes:Bytes = sound._sound.__buffer.data.toBytes();
 
 				wavData = waveformData(
@@ -2207,9 +2212,11 @@ class ChartingState extends MusicBeatState
 			}
 		}
 
-		if (FlxG.save.data.chart_waveformVoices) {
+		if (FlxG.save.data.chart_waveformVoices)
+		{
 			var sound:FlxSound = vocals;
-			if (sound._sound != null && sound._sound.__buffer != null) {
+			if (sound._sound != null && sound._sound.__buffer != null)
+			{
 				var bytes:Bytes = sound._sound.__buffer.data.toBytes();
 
 				wavData = waveformData(
@@ -2223,7 +2230,7 @@ class ChartingState extends MusicBeatState
 				);
 			}
 		}
-	    }
+	}
 		// Draws
 		var gSize:Int = Std.int(GRID_SIZE * 8);
 		var hSize:Int = Std.int(gSize / 2);
