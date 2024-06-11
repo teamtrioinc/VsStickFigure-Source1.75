@@ -205,7 +205,9 @@ class ChartingState extends MusicBeatState
 	override function create()
 	{
 		if (PlayState.SONG != null)
+		{
 			_song = PlayState.SONG;
+		}
 		else
 		{
 			CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
@@ -274,7 +276,10 @@ class ChartingState extends MusicBeatState
 		nextRenderedSustains = new FlxTypedGroup<FlxSprite>();
 		nextRenderedNotes = new FlxTypedGroup<Note>();
 
-		if(curSec >= _song.notes.length) curSec = _song.notes.length - 1;
+		if(curSec >= _song.notes.length)
+		{
+		  curSec = _song.notes.length - 1;
+		}
 
 		FlxG.mouse.visible = true;
 		//FlxG.save.bind('funkin', 'ninjamuffin99');
@@ -307,7 +312,8 @@ class ChartingState extends MusicBeatState
 		add(quant);
 
 		strumLineNotes = new FlxTypedGroup<StrumNote>();
-		for (i in 0...8){
+		for (i in 0...8)
+		{
 			var note:StrumNote = new StrumNote(GRID_SIZE * (i+1), strumLine.y, i % 4, 0);
 			note.setGraphicSize(GRID_SIZE, GRID_SIZE);
 			note.updateHitbox();
@@ -355,7 +361,8 @@ class ChartingState extends MusicBeatState
 		\nSpace - Stop/Resume song";
 
 		var tipTextArray:Array<String> = text.split('\n');
-		for (i in 0...tipTextArray.length) {
+		for (i in 0...tipTextArray.length)
+		{
 			var tipText:FlxText = new FlxText(UI_box.x, UI_box.y + UI_box.height + 8, 0, tipTextArray[i], 16);
 			tipText.y += i * 12;
 			tipText.setFormat(Paths.font("vcr.ttf"), 14, FlxColor.WHITE, LEFT/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
@@ -380,7 +387,8 @@ class ChartingState extends MusicBeatState
 		add(nextRenderedSustains);
 		add(nextRenderedNotes);
 
-		if(lastSong != currentSongName) {
+		if(lastSong != currentSongName)
+		{
 			changeSection();
 		}
 		lastSong = currentSongName;
@@ -2733,7 +2741,8 @@ class ChartingState extends MusicBeatState
 		return retStr;
 	}
 
-	function setupSusNote(note:Note, beats:Float):FlxSprite {
+	function setupSusNote(note:Note, beats:Float):FlxSprite
+	{
 		var height:Int = Math.floor(FlxMath.remapToRange(note.sustainLength, 0, Conductor.stepCrochet * 16, 0, GRID_SIZE * 16 * zoomList[curZoom]) + (GRID_SIZE * zoomList[curZoom]) - GRID_SIZE / 2);
 		var minHeight:Int = Std.int((GRID_SIZE * zoomList[curZoom] / 2) + GRID_SIZE / 2);
 		if(height < minHeight) height = minHeight;
@@ -2742,7 +2751,7 @@ class ChartingState extends MusicBeatState
 		var spr:FlxSprite = new FlxSprite(note.x + (GRID_SIZE * 0.5) - 4, note.y + GRID_SIZE / 2).makeGraphic(8, height);
 		return spr;
 	}
-}
+
 	private function addSection(sectionBeats:Float = 4):Void
 	{
 		var sec:SwagSection = {
@@ -2848,10 +2857,12 @@ class ChartingState extends MusicBeatState
 			});
 		}
 
-		if (!delnote){
+		if (!delnote)
+		{
 			addNote(cs, d, style);
 		}
 	}
+	
 	function clearSong():Void
 	{
 		for (daSection in 0..._song.notes.length)
@@ -2957,13 +2968,18 @@ class ChartingState extends MusicBeatState
 		//shitty null fix, i fucking hate it when this happens
 		//make it look sexier if possible
 		if (CoolUtil.difficulties[PlayState.storyDifficulty] != CoolUtil.defaultDifficulty) {
-			if(CoolUtil.difficulties[PlayState.storyDifficulty] == null){
+			if(CoolUtil.difficulties[PlayState.storyDifficulty] == null)
+			{
 				PlayState.SONG = Song.loadFromJson(song.toLowerCase(), song.toLowerCase());
-			}else{
+			}
+			else
+			{
 				PlayState.SONG = Song.loadFromJson(song.toLowerCase() + "-" + CoolUtil.difficulties[PlayState.storyDifficulty], song.toLowerCase());
 			}
-		}else{
-		PlayState.SONG = Song.loadFromJson(song.toLowerCase(), song.toLowerCase());
+		}
+		else
+		{
+		  PlayState.SONG = Song.loadFromJson(song.toLowerCase(), song.toLowerCase());
 		}
 		MusicBeatState.resetState();
 	}
@@ -2976,7 +2992,8 @@ class ChartingState extends MusicBeatState
 		FlxG.save.flush();
 	}
 
-	function clearEvents() {
+	function clearEvents()
+	{
 		_song.events = [];
 		updateGrid();
 	}
@@ -3007,7 +3024,10 @@ class ChartingState extends MusicBeatState
 
 	private function saveEvents()
 	{
-		if(_song.events != null && _song.events.length > 1) _song.events.sort(sortByTime);
+		if(_song.events != null && _song.events.length > 1)
+		{
+		  _song.events.sort(sortByTime);
+		}
 		var eventsSong:Dynamic = {
 			events: _song.events
 		};
@@ -3067,6 +3087,7 @@ class ChartingState extends MusicBeatState
 		if(_song.notes[section] != null) val = _song.notes[section].sectionBeats;
 		return val != null ? val : 4;
 	}
+}
 
 class AttachedFlxText extends FlxText
 {
