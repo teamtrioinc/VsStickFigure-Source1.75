@@ -2832,19 +2832,21 @@ class ChartingState extends MusicBeatState
 		updateGrid();
 	}
 
-public function doANoteThing(cs:ChartingState, d, style) {
-    var delnote = false;
-    if (strumLineNotes.members[d].overlaps(curRenderedNotes)) {
-        curRenderedNotes.forEachAlive(function(note:Note) {
-            if (note.overlapsPoint(new FlxPoint(strumLineNotes.members[d].x + 1, strumLine.y + 1)) && note.noteData == d % 4) {
-                //trace('tryin to delete note...');
-                if (!delnote) deleteNote(note);
-                delnote = true;
-            }
-        });
-    }
-}
-
+	function doANoteThing(cs, d, style):Void
+	{
+		var delnote = false;
+		if(strumLineNotes.members[d].overlaps(curRenderedNotes))
+		{
+			curRenderedNotes.forEachAlive(function(note:Note)
+			{
+				if (note.overlapsPoint(new FlxPoint(strumLineNotes.members[d].x + 1,strumLine.y+1)) && note.noteData == d%4)
+				{
+						//trace('tryin to delete note...');
+						if(!delnote) deleteNote(note);
+						delnote = true;
+				}
+			});
+		}
 
 		if (!delnote){
 			addNote(cs, d, style);
