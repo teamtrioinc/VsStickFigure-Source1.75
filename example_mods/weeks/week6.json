@@ -1,8 +1,8 @@
 {
-	"storyName": "FREEPLAYSONGS",
+	"storyName": "Your New Week",
 	"difficulties": "Normal",
 	"hideFreeplay": false,
-	"weekBackground": "",
+	"weekBackground": "stage",
 	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
@@ -13,47 +13,38 @@
 	"hideStoryMode": true,
 	"songs": [
 		[
-			"burrito",
-			"friendone",
+			"irl",
+			"judeirl",
 			[
-				146,
-				153,
+				175,
+				95,
+				75
+			]
+		],
+		[
+			"png",
+			"pngsf",
+			[
+				255,
+				255,
 				255
 			]
 		],
 		[
-			"compact",
-			"dsf",
+			"breakup",
+			"boy",
 			[
-				146,
-				140,
-				153
-			]
-		],
-		[
-			"mod-leak",
-			"cool",
-			[
-				206,
-				133,
-				195
-			]
-		],
-		[
-			"fatality",
-			"fatalfigure",
-			[
-				175,
+				0,
 				0,
 				0
 			]
 		]
 	],
 	"weekCharacters": [
-		"",
+		"dad",
 		"bf",
-		""
+		"gf"
 	],
 	"hiddenUntilUnlocked": false,
-	"weekName": "FREEPLAYSONGS"
+	"weekName": "DLC WEEK 1"
 }

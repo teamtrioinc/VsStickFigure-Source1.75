@@ -27,6 +27,7 @@ makeAnimatedLuaSprite('sonic','sonic',600,300)
         objectPlayAnimation('sonic','dance',false)
 
 	addLuaSprite('irl', false);
+	addLuaSprite('aidaenkeptbeggingformetoaddhimtoirlsohere', false);
 	addLuaSprite('drugaddictmario', false)
 	addLuaSprite('sonic', false);
 	addLuaSprite('phonefigure', false);

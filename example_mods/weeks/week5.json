@@ -1,36 +1,68 @@
 {
-	"storyName": "",
-	"difficulties": "insane",
-	"hideFreeplay": true,
-	"weekBackground": "finale",
-	"weekBefore": "",
+	"storyName": "FREEPLAYSONGS",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": true,
 	"weekCharacters": [
 		"",
-		"",
+		"bf",
 		""
 	],
 	"songs": [
 		[
-			"plagerized",
-			"green",
+			"burrito",
+			"friendone",
 			[
+				86,
+				93,
+				255
+			]
+		],
+		[
+			"compact",
+			"dsf",
+			[
+				146,
+				140,
+				153
+			]
+		],
+		[
+			"mod-leak",
+			"cool",
+			[
+				206,
+				133,
+				195
+			]
+		],
+		[
+			"fatality",
+			"fatalfigure",
+			[
+				175,
 				0,
-				50,
 				0
 			]
 		],
 		[
-			"???",
-			"sfgod",
+			"massacre",
+			"badguy",
 			[
-				20,
-				20,
-				20
+				255,
+				100,
+				0
 			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "FINALE"
+	"hideStoryMode": true,
+	"weekName": "FREEPLAYSONGS",
+	"hiddenUntilUnlocked": false
 }
