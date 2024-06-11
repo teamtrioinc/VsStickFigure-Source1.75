@@ -2223,7 +2223,7 @@ class ChartingState extends MusicBeatState
 				);
 			}
 		}
-	}
+	    }
 		// Draws
 		var gSize:Int = Std.int(GRID_SIZE * 8);
 		var hSize:Int = Std.int(gSize / 2);
