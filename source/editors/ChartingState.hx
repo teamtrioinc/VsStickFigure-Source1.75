@@ -3067,7 +3067,6 @@ class ChartingState extends MusicBeatState
 		if(_song.notes[section] != null) val = _song.notes[section].sectionBeats;
 		return val != null ? val : 4;
 	}
-}
 
 class AttachedFlxText extends FlxText
 {
