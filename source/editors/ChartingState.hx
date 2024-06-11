@@ -2734,6 +2734,7 @@ class ChartingState extends MusicBeatState
 		var spr:FlxSprite = new FlxSprite(note.x + (GRID_SIZE * 0.5) - 4, note.y + GRID_SIZE / 2).makeGraphic(8, height);
 		return spr;
 	}
+}
 	private function addSection(sectionBeats:Float = 4):Void
 	{
 		var sec:SwagSection = {
