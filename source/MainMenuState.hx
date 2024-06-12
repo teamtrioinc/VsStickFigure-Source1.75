@@ -272,18 +272,19 @@ class MainMenuState extends MusicBeatState
 		});
 	}
 
-	  // GF CODE!
-        var idle:FlxSprite; // to put the gf on the menu mme
-        var idle:Bool = false;
-        idle = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
-        idle.frames = Paths.getSparrowAtlas('bradleyph');
-        idle.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
-        add(idle);
-        idle.setGraphicSize(750, 700);
-        if (idle != null) {
-            idle = !idle;
-            if (idle) idle.animation.play('idle');
-        }
+// GF CODE!
+var gfSprite:FlxSprite; // to put the gf on the menu mme
+var isIdle:Bool = false;
+gfSprite = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
+gfSprite.frames = Paths.getSparrowAtlas('bradleyph');
+gfSprite.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
+add(gfSprite);
+gfSprite.setGraphicSize(750, 700);
+if (gfSprite != null) {
+    isIdle = !isIdle;
+    if (isIdle) gfSprite.animation.play('idle');
+}
+
 
 
 	function changeItem(huh:Int = 0)
