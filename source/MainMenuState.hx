@@ -97,6 +97,19 @@ class MainMenuState extends MusicBeatState
 		magenta.color = 0xFFfd719b;
 		add(magenta);
 		
+		 var gfDance:FlxSprite; // to put the gf on the menu mme
+        var danceLeft:Bool = false;
+		
+		 gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
+        gfDance.frames = Paths.getSparrowAtlas('bradleyph');
+        gfDance.animation.addByIndices('danceLeft', 'gfDance', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, true);
+        add(gfDance);
+        gfDance.setGraphicSize(750, 700);
+        if (gfDance != null) {
+            danceLeft = !danceLeft;
+            if (danceLeft) gfDance.animation.play('idle');
+        }
+		
 		// magenta.scrollFactor.set();
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
@@ -273,18 +286,7 @@ class MainMenuState extends MusicBeatState
 	}
 }
 
-// GF CODE!
-var gfDance:FlxSprite; // to put the gf on the menu mme
-var isIdle:Bool = false;
-gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
-gfDance.frames = Paths.getSparrowAtlas('bradleyph');
-gfDance.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
-add(gfDance);
-gfDance.setGraphicSize(750, 700);
-if (gfDance != null) {
-    isIdle = !isIdle;
-    if (isIdle) gfDance.animation.play('idle');
-}
+{
 
 
 
