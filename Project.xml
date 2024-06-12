@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<haxedef name='no-deprecation-warnings'/>
 <project>
+    <haxedef name='no-deprecation-warnings'/>
 	<!-- _________________________ Application Settings _________________________ -->
 
 	<app title="Friday Night Funkin': Vs Stick Figure" file="Vs Stick Figure" packageName="com.shadowmario.psychengine" package="com.shadowmario.psychengine" main="Main" version="1.75" company="Team Trio Productions" />
@@ -198,4 +198,3 @@
 	<icon path="art/icon64.png" size='64'/>
 	<icon path="art/iconOG.png" />
 </project>
-<haxedef>
