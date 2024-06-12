@@ -25,7 +25,7 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '0.6.2'; //This is also used for Discord RPC
+	public static var psychEngineVersion:String = '1.75'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -130,7 +130,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Vs Stick Figure v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -271,6 +271,20 @@ class MainMenuState extends MusicBeatState
 			spr.screenCenter(X);
 		});
 	}
+
+	  // GF CODE!
+        var idle:FlxSprite; // to put the gf on the menu mme
+        var idle:Bool = false;
+        idle = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
+        idle.frames = Paths.getSparrowAtlas('bradleyph');
+        idle.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
+        add(idle);
+        idle.setGraphicSize(750, 700);
+        if (idle != null) {
+            idle = !idle;
+            if (idle) idle.animation.play('idle');
+        }
+
 
 	function changeItem(huh:Int = 0)
 	{
