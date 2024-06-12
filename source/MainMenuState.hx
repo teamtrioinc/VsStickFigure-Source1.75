@@ -271,6 +271,7 @@ class MainMenuState extends MusicBeatState
 			spr.screenCenter(X);
 		});
 	}
+}
 
 // GF CODE!
 var gfSprite:FlxSprite; // to put the gf on the menu mme
