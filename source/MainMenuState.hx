@@ -274,16 +274,16 @@ class MainMenuState extends MusicBeatState
 }
 
 // GF CODE!
-var gfSprite:FlxSprite; // to put the gf on the menu mme
+var gfDance:FlxSprite; // to put the gf on the menu mme
 var isIdle:Bool = false;
-gfSprite = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
-gfSprite.frames = Paths.getSparrowAtlas('bradleyph');
-gfSprite.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
-add(gfSprite);
-gfSprite.setGraphicSize(750, 700);
-if (gfSprite != null) {
+gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
+gfDance.frames = Paths.getSparrowAtlas('bradleyph');
+gfDance.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
+add(gfDance);
+gfDance.setGraphicSize(750, 700);
+if (gfDance != null) {
     isIdle = !isIdle;
-    if (isIdle) gfSprite.animation.play('idle');
+    if (isIdle) gfDance.animation.play('idle');
 }
 
 
