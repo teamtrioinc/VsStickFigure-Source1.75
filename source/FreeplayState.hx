@@ -25,6 +25,7 @@ import sys.FileSystem;
 using StringTools;
 
 class FreeplayState extends MusicBeatState
+
 	var songs:Array<SongMetadata> = [];
 
 	var selector:FlxText;
@@ -109,31 +110,61 @@ class FreeplayState extends MusicBeatState
 		add(grpSongs);
 
 		for (i in 0...songs.length)
-		{
-			var songText:Alphabet = new Alphabet(90, 320, songs[i].songName, true);
-			songText.isMenuItem = true;
-			songText.targetY = i - curSelected;
-			grpSongs.add(songText);
 
-			var maxWidth = 980;
-			if (songText.width > maxWidth)
-			{
-				songText.scaleX = maxWidth / songText.width;
-			}
-			songText.snapToPosition();
+        {
+            var songText:Alphabet = new Alphabet(0, 320, songs[i].songName, true);
 
-			Paths.currentModDirectory = songs[i].folder;
-			var icon:HealthIcon = new HealthIcon(songs[i].songCharacter);
-			icon.sprTracker = songText;
+            songText.isMenuItem = false; <-- Add this here
 
-			// using a FlxGroup is too much fuss!
-			iconArray.push(icon);
-			add(icon);
+            songText.isMenuItemCenter = true; <-- Add this here
 
-			// songText.x += 40;
-			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
-			// songText.screenCenter(X);
-		}
+            songText.targetY = i;
+
+           
+
+            grpSongs.add(songText);
+
+
+            //songText.x = FlxG.width/2 - (songText.width+150)/2; <-- Comment this out
+
+            songText.scaleX = Math.min(1, 980 / songText.width);
+
+            //songText.snapToPosition(); <-- Comment this out
+
+
+            Mods.currentModDirectory = songs[i].folder;
+
+           
+
+            var icon:HealthIcon = new HealthIcon(songs[i].songCharacter);
+
+            icon.sprTracker = songText;
+
+
+           
+
+            // too laggy with a lot of songs, so i had to recode the logic for it
+
+            songText.visible = songText.active = false; <-- Remove "songText.isMenuItem" here
+
+            icon.visible = icon.active = false;
+
+
+            // using a FlxGroup is too much fuss!
+
+            iconArray.push(icon);
+
+            add(icon);
+
+
+            //songText.x += 40;
+
+            // DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
+
+            //songText.screenCenter(X);
+
+        }
+
 		WeekData.setDirectoryFromWeek();
 
 		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
