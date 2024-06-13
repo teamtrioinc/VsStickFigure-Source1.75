@@ -213,8 +213,10 @@ class MainMenuState extends MusicBeatState
 					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
 
-					if(ClientPrefs.flashing) FlxFlicker.flicker(magenta, 1.1, 0.15, false);
-
+					if(ClientPrefs.flashing)
+					{
+					  FlxFlicker.flicker(magenta, 1.1, 0.15, false);
+					}
 					menuItems.forEach(function(spr:FlxSprite)
 					{
 						if (curSelected != spr.ID)
@@ -269,7 +271,8 @@ class MainMenuState extends MusicBeatState
 		menuItems.forEach(function(spr:FlxSprite)
 		{
 			spr.screenCenter(X);
-		});
+		}
+		);
 	}
 
 	function changeItem(huh:Int = 0)
@@ -277,9 +280,13 @@ class MainMenuState extends MusicBeatState
 		curSelected += huh;
 
 		if (curSelected >= menuItems.length)
+		{
 			curSelected = 0;
+		}
 		if (curSelected < 0)
+		{
 			curSelected = menuItems.length - 1;
+	  }
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{
@@ -290,7 +297,8 @@ class MainMenuState extends MusicBeatState
 			{
 				spr.animation.play('selected');
 				var add:Float = 0;
-				if(menuItems.length > 4) {
+				if(menuItems.length > 4)
+				{
 					add = menuItems.length * 8;
 				}
 				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y - add);
@@ -298,3 +306,4 @@ class MainMenuState extends MusicBeatState
 			}
 		});
 	}
+}
