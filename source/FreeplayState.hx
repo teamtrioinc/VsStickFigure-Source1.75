@@ -115,9 +115,9 @@ class FreeplayState extends MusicBeatState
         {
             var songText:Alphabet = new Alphabet(0, 320, songs[i].songName, true);
 
-            songText.isMenuItem = false; <-- Add this here
+            songText.isMenuItem = false; //<-- Add this here
 
-            songText.isMenuItemCenter = true; <-- Add this here
+            songText.isMenuItemCenter = true; //<-- Add this here
 
             songText.targetY = i;
 
@@ -146,7 +146,7 @@ class FreeplayState extends MusicBeatState
 
             // too laggy with a lot of songs, so i had to recode the logic for it
 
-            songText.visible = songText.active = false; <-- Remove "songText.isMenuItem" here
+            songText.visible = songText.active = false; // <-- Remove "songText.isMenuItem" here
 
             icon.visible = icon.active = false;
 
