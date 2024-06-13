@@ -26,6 +26,7 @@ using StringTools;
 
 class FreeplayState extends MusicBeatState
 
+{
 	var songs:Array<SongMetadata> = [];
 
 	var selector:FlxText;
@@ -49,6 +50,7 @@ class FreeplayState extends MusicBeatState
 	var bg:FlxSprite;
 	var intendedColor:Int;
 	var colorTween:FlxTween;
+}
 
 	override function create()
 	{
