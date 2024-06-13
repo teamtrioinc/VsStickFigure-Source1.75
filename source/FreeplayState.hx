@@ -133,7 +133,7 @@ class FreeplayState extends MusicBeatState
             //songText.snapToPosition(); <-- Comment this out
 
 
-            Mods.currentModDirectory = songs[i].folder;
+            Paths.currentModDirectory = songs[i].folder;
 
            
 
