@@ -89,7 +89,7 @@ class FreeplayState extends MusicBeatState
 			}
 		}
 	}
-		WeekData.loadTheFirstEnabledMod();
+		}		WeekData.loadTheFirstEnabledMod();
 
 		/*		//KIND OF BROKEN NOW AND ALSO PRETTY USELESS//
 
