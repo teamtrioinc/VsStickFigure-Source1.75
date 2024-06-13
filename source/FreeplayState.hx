@@ -25,8 +25,6 @@ import sys.FileSystem;
 using StringTools;
 
 class FreeplayState extends MusicBeatState
-
-{
 	var songs:Array<SongMetadata> = [];
 
 	var selector:FlxText;
@@ -50,7 +48,6 @@ class FreeplayState extends MusicBeatState
 	var bg:FlxSprite;
 	var intendedColor:Int;
 	var colorTween:FlxTween;
-}
 
 	override function create()
 	{
@@ -111,43 +108,32 @@ class FreeplayState extends MusicBeatState
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
 
-		        {
-            var songText:Alphabet = new Alphabet(0, 320, songs[i].songName, true);
-            songText.isMenuItem = false; <-- Add this here
-            songText.isMenuItemCenter = true; <-- Add this here
-            songText.targetY = i;
+		for (i in 0...songs.length)
+		{
+			var songText:Alphabet = new Alphabet(90, 320, songs[i].songName, true);
+			songText.isMenuItem = true;
+			songText.targetY = i - curSelected;
+			grpSongs.add(songText);
 
-            grpSongs.add(songText);
+			var maxWidth = 980;
+			if (songText.width > maxWidth)
+			{
+				songText.scaleX = maxWidth / songText.width;
+			}
+			songText.snapToPosition();
 
-            //songText.x = FlxG.width/2 - (songText.width+150)/2; <-- Comment this out
+			Paths.currentModDirectory = songs[i].folder;
+			var icon:HealthIcon = new HealthIcon(songs[i].songCharacter);
+			icon.sprTracker = songText;
 
-            songText.scaleX = Math.min(1, 980 / songText.width);
+			// using a FlxGroup is too much fuss!
+			iconArray.push(icon);
+			add(icon);
 
-            //songText.snapToPosition(); <-- Comment this out
-
-
-            Mods.currentModDirectory = songs[i].folder;
-
-            var icon:HealthIcon = new HealthIcon(songs[i].songCharacter);
-            icon.sprTracker = songText;
-
-            // too laggy with a lot of songs, so i had to recode the logic for it
-
-            songText.visible = songText.active = false; <-- Remove "songText.isMenuItem" here
-            icon.visible = icon.active = false;
-
-            // using a FlxGroup is too much fuss!
-		
-            iconArray.push(icon);
-            add(icon);
-
-            //songText.x += 40;
-
-            // DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
-
-            //songText.screenCenter(X);
-
-        }
+			// songText.x += 40;
+			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
+			// songText.screenCenter(X);
+		}
 		WeekData.setDirectoryFromWeek();
 
 		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
