@@ -271,7 +271,6 @@ class MainMenuState extends MusicBeatState
 			spr.screenCenter(X);
 		});
 	}
-}
 
 	function changeItem(huh:Int = 0)
 	{
