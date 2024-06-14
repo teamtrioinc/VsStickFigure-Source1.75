@@ -323,7 +323,7 @@ class MainMenuState extends MusicBeatState
 		if(gfDance != null) {
 			/*idlet = !idlet;
 			if (idlet)
-				gfDance.animation.play('danceRight');
+				gfDance.animation.play('idle');
 			else
 				gfDance.animation.play('idlet');
 			*/
