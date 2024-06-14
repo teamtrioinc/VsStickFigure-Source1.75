@@ -160,11 +160,11 @@ class MainMenuState extends MusicBeatState
 
 		gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
 		gfDance.frames = Paths.getSparrowAtlas('bradleyph');
-		gfDance.animation.addByIndices('idlet', 'gfDance', [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
-		gfDance.animation.addByPrefix("idle", "idle", 24, true);
+		gfDance.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
+		gfDance.animation.addByPrefix("idle", "idle", 24, false);
 		add(gfDance);
 		gfDance.setGraphicSize(750, 700);
-		gfDance.scrollFactor.set(0,0);
+		gfDance.scrollFactor.set(0,0.yScroll);
 
 		super.create();
 	}
@@ -317,17 +317,16 @@ class MainMenuState extends MusicBeatState
 		});
 	}
 	
-	override function beatHit()
-	{
-		super.beatHit();
-		if(gfDance != null) {
-			/*idlet = !idlet;
-			if (idlet)
-				gfDance.animation.play('idle');
-			else
-				gfDance.animation.play('idlet');
-			*/
-			gfDance.animation.play('idle');
-		}
-	}
+override function beatHit()
+    {
+        super.beatHit();
+        if(gfDance != null) {
+          gfDance.animation.play('idle');
+            /*danceLeft = !danceLeft;
+            if (danceLeft)
+                gfDance.animation.play('idle');
+            else
+                gfDance.animation.play('idle');
+        }*/
+    }
 }
