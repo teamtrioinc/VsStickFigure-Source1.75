@@ -42,6 +42,7 @@ class MainMenuState extends MusicBeatState
 		'options'
 	];
 
+  var bg:FlxSprite;
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
@@ -76,7 +77,7 @@ class MainMenuState extends MusicBeatState
 		persistentUpdate = persistentDraw = true;
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
+		bg = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
 		bg.scrollFactor.set(0, yScroll);
 		bg.setGraphicSize(Std.int(bg.width * 1.175));
 		bg.updateHitbox();
@@ -136,7 +137,7 @@ class MainMenuState extends MusicBeatState
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Friday Night Funkin' v" + Application.current.meta.get('version'), 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Team Trio' v" + Application.current.meta.get('version'), 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -160,11 +161,11 @@ class MainMenuState extends MusicBeatState
 
 		gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
 		gfDance.frames = Paths.getSparrowAtlas('bradleyph');
-		gfDance.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
-		gfDance.animation.addByPrefix("idle", "idle", 24, false);
+		//gfDance.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
+		gfDance.animation.addByPrefix("idle", "idle", 24, true);
 		add(gfDance);
 		gfDance.setGraphicSize(750, 700);
-		gfDance.scrollFactor.set(0,0.yScroll);
+		gfDance.scrollFactor.set(0,bg.scrollFactor.y);
 
 		super.create();
 	}
@@ -321,12 +322,7 @@ class MainMenuState extends MusicBeatState
 	{
 		super.beatHit();
 		if(gfDance != null) {
-		  //gfDance.animation.play('idle');
-			danceLeft = !danceLeft;
-			if (danceLeft)
-				gfDance.animation.play('idle');
-			else
-				gfDance.animation.play('idle');
-		}
+		  gfDance.animation.play('idle');
 	}
+}
 }
