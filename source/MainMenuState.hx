@@ -317,16 +317,16 @@ class MainMenuState extends MusicBeatState
 		});
 	}
 	
-override function beatHit()
-    {
-        super.beatHit();
-        if(gfDance != null) {
-          gfDance.animation.play('idle');
-            /*danceLeft = !danceLeft;
-            if (danceLeft)
-                gfDance.animation.play('idle');
-            else
-                gfDance.animation.play('idle');
-        }*/
-    }
+	override function beatHit()
+	{
+		super.beatHit();
+		if(gfDance != null) {
+		  //gfDance.animation.play('idle');
+			danceLeft = !danceLeft;
+			if (danceLeft)
+				gfDance.animation.play('idle');
+			else
+				gfDance.animation.play('idle');
+		}
+	}
 }
