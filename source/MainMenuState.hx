@@ -160,7 +160,7 @@ class MainMenuState extends MusicBeatState
 
 		gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
 		gfDance.frames = Paths.getSparrowAtlas('bradleyph');
-		gfDance.animation.addByIndices('danceLeft', 'gfDance', [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
+		gfDance.animation.addByIndices('idlet', 'gfDance', [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
 		gfDance.animation.addByPrefix("idle", "idle", 24, true);
 		add(gfDance);
 		gfDance.setGraphicSize(750, 700);
@@ -321,11 +321,11 @@ class MainMenuState extends MusicBeatState
 	{
 		super.beatHit();
 		if(gfDance != null) {
-			/*danceLeft = !danceLeft;
-			if (danceLeft)
+			/*idlet = !idlet;
+			if (idlet)
 				gfDance.animation.play('danceRight');
 			else
-				gfDance.animation.play('danceLeft');
+				gfDance.animation.play('idlet');
 			*/
 			gfDance.animation.play('idle');
 		}
