@@ -1404,7 +1404,7 @@ class FunkinLua {
 		});
 
 		Lua_helper.add_callback(lua, "getColorFromHex", function(color:String) {
-			if(!color.startsWith('0x')) color = '0xff' + color;
+			if(!color.startsWith('0x')) color = '0xFF' + color;
 			return Std.parseInt(color);
 		});
 
@@ -1641,10 +1641,10 @@ class FunkinLua {
 			if(!color.startsWith('0x')) colorNum = Std.parseInt('0xff' + color);
 			cameraFromString(camera).flash(colorNum, duration,null,forced);
 		});
-		Lua_helper.add_callback(lua, "cameraFade", function(camera:String, color:String, duration:Float,forced:Bool) {
+		Lua_helper.add_callback(lua, "cameraFade", function(camera:String, color:String, duration:Float,forced:Bool,?fadeIn:Bool = false) {
 			var colorNum:Int = Std.parseInt(color);
 			if(!color.startsWith('0x')) colorNum = Std.parseInt('0xff' + color);
-			cameraFromString(camera).fade(colorNum, duration,false,null,forced);
+			cameraFromString(camera).fade(colorNum, duration,fadeIn,null,forced);
 		});
 		Lua_helper.add_callback(lua, "setRatingPercent", function(value:Float) {
 			PlayState.instance.ratingPercent = value;
@@ -1756,7 +1756,7 @@ class FunkinLua {
 
 		Lua_helper.add_callback(lua, "makeGraphic", function(obj:String, width:Int, height:Int, color:String) {
 			var colorNum:Int = Std.parseInt(color);
-			if(!color.startsWith('0x')) colorNum = Std.parseInt('0xff' + color);
+			if(!color.startsWith('0x')) colorNum = Std.parseInt('0xFF' + color);
 
 			var spr:FlxSprite = PlayState.instance.getLuaObject(obj,false);
 			if(spr!=null) {
