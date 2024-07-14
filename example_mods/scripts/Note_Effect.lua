@@ -43,4 +43,3 @@ function makeStrumAsset(dir, custom, x, y, tag)
  if custom then custom(tag, dir, x, y, skin) end
  return tag
 end
--- Made by Daniel (skry#4271)

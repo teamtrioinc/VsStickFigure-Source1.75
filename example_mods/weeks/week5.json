@@ -1,68 +1,41 @@
 {
-	"storyName": "FREEPLAYSONGS",
-	"difficulties": "Normal",
+	"songs": [
+		[
+			"power-hungry",
+			"cvtemp",
+			[
+				255,
+				0,
+				15
+			]
+		],
+		[
+			"surgent",
+			"cvtemp",
+			[
+				255,
+				0,
+				15
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
-	"weekBackground": "",
+	"weekBackground": "cv",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Commanding of the Video",
+	"weekName": "Commander Video",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"hideStoryMode": false,
 	"weekBefore": "tutorial",
-	"startUnlocked": true,
-	"weekCharacters": [
-		"",
-		"bf",
-		""
-	],
-	"songs": [
-		[
-			"burrito",
-			"friendone",
-			[
-				86,
-				93,
-				255
-			]
-		],
-		[
-			"compact",
-			"dsf",
-			[
-				146,
-				140,
-				153
-			]
-		],
-		[
-			"mod-leak",
-			"cool",
-			[
-				206,
-				133,
-				195
-			]
-		],
-		[
-			"fatality",
-			"fatalfigure",
-			[
-				175,
-				0,
-				0
-			]
-		],
-		[
-			"massacre",
-			"badguy",
-			[
-				255,
-				100,
-				0
-			]
-		]
-	],
-	"hideStoryMode": true,
-	"weekName": "FREEPLAYSONGS",
-	"hiddenUntilUnlocked": false
+	"startUnlocked": true
 }

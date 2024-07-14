@@ -1,42 +1,41 @@
 {
-	"storyName": "sonic is cool",
-	"difficulties": "Normal",
+	"storyName": "hes gonna stick it in you..?",
+	"difficulties": "Hard",
 	"hideFreeplay": false,
-	"weekBackground": "seth",
-	"weekBefore": "tutorial",
+	"weekBackground": "rematch",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "week8",
 	"startUnlocked": true,
-	"hideStoryMode": false,
 	"songs": [
 		[
-			"surprise",
-			"seth",
+			"retake",
+			"sfworried",
 			[
-				155,
-				53,
-				0
+				146,
+				113,
+				115
 			]
 		],
 		[
-			"dime",
-			"seth",
+			"reunion",
+			"sfnormal",
 			[
-				155,
-				53,
-				0
+				146,
+				113,
+				115
 			]
 		],
 		[
-			"the-ultimate-collab",
-			"sethandstickfigure",
+			"send-off",
+			"sfsad",
 			[
-				155,
-				53,
-				0
+				60,
+				133,
+				253
 			]
 		]
 	],
@@ -45,6 +44,6 @@
 		"",
 		""
 	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "seth"
+	"hideStoryMode": false,
+	"weekName": "rematch"
 }

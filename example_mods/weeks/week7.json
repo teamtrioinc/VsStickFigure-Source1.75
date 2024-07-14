@@ -1,0 +1,104 @@
+{
+	"storyName": "FREEPLAYSONGS",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"songs": [
+		[
+			"burrito",
+			"friendone",
+			[
+				86,
+				93,
+				255
+			]
+		],
+		[
+			"compact",
+			"dsf",
+			[
+				146,
+				140,
+				153
+			]
+		],
+		[
+			"mod-leak",
+			"cool",
+			[
+				82,
+				81,
+				82
+			]
+		],
+		[
+			"fatality",
+			"fatalfigure",
+			[
+				17,
+				0,
+				0
+			]
+		],
+		[
+			"massacre",
+			"badguy",
+			[
+				0,
+				100,
+				0
+			]
+		],
+		[
+			"irl",
+			"judeirl",
+			[
+				0,
+				95,
+				75
+			]
+		],
+		[
+			"png",
+			"pngsf",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"breakup",
+			"boy",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"balls",
+			"injaw",
+			[
+				126,
+				73,
+				73
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "FREEPLAYSONGS",
+	"hiddenUntilUnlocked": false
+}

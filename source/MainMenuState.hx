@@ -160,14 +160,21 @@ class MainMenuState extends MusicBeatState
 		#end
 
 		gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
-		gfDance.frames = Paths.getSparrowAtlas('bradleyph');
-		//gfDance.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, true);
+		gfDance.frames = Paths.getSparrowAtlas('stickfiguretitletemp');
+		//gfDance.animation.addByIndices('idle', 'idle', [1, 2, 3, 4], "", 24, true);
 		gfDance.animation.addByPrefix("idle", "idle", 24, true);
 		add(gfDance);
 		gfDance.setGraphicSize(750, 700);
 		gfDance.scrollFactor.set(0,bg.scrollFactor.y);
 
 		super.create();
+		
+		try
+		{
+		  var thing = Json.parse(Paths.getTextFromFile('images/gfDanceTitle.json'))
+		  Conductor.changeBPM(thing.bpm);
+		}
+		catch(e:Dynamic) {}
 	}
 
 	#if ACHIEVEMENTS_ALLOWED
@@ -183,6 +190,8 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+	  if (FlxG.sound.music != null)
+			Conductor.songPosition = FlxG.sound.music.time;
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
@@ -321,8 +330,9 @@ class MainMenuState extends MusicBeatState
 	override function beatHit()
 	{
 		super.beatHit();
-		if(gfDance != null) {
+		if(gfDance != null)
+		{
 		  gfDance.animation.play('idle');
-	}
-}
+	  }
+  }
 }

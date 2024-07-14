@@ -1,49 +1,50 @@
 {
-	"storyName": "sorry man, wanna rematch?",
-	"difficulties": "Hard",
-	"hideFreeplay": true,
-	"weekBackground": "rematch",
-	"weekBefore": "week8",
+	"storyName": "sonic is cool",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "seth",
+	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
 	"startUnlocked": true,
-	"hideStoryMode": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"surprise",
+			"seth",
+			[
+				155,
+				53,
+				0
+			]
+		],
+		[
+			"dime",
+			"seth",
+			[
+				155,
+				53,
+				0
+			]
+		],
+		[
+			"the-ultimate-collab",
+			"sethandstickfigure",
+			[
+				155,
+				53,
+				0
+			]
+		]
+	],
 	"weekCharacters": [
 		"",
 		"",
 		""
 	],
-	"songs": [
-		[
-			"premeditated",
-			"sfworried",
-			[
-				146,
-				113,
-				115
-			]
-		],
-		[
-			"fight for life",
-			"sfgod",
-			[
-				146,
-				113,
-				115
-			]
-		],
-		[
-			"sacrifice",
-			"sfsad",
-			[
-				60,
-				133,
-				253
-			]
-		]
-	],
-	"weekName": "stick figure rematch"
+	"hiddenUntilUnlocked": false,
+	"weekName": "seth"
 }

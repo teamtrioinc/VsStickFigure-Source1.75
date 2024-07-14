@@ -281,7 +281,8 @@ class PauseSubState extends MusicBeatSubstate
 		skipTimeTracker = null;
 	}
 
-	public static function restartSong(noTrans:Bool = false)
+	/*
+	  public static function restartSong(noTrans:Bool = false)
 	{
 		PlayState.instance.paused = true; // For lua
 		FlxG.sound.music.volume = 0;
@@ -296,6 +297,19 @@ class PauseSubState extends MusicBeatSubstate
 		{
 			MusicBeatState.resetState();
 		}
+	}}}*/
+	public static function restartSong(noTrans:Bool = false) // the function from PE 0.7.3 version
+	{
+		PlayState.instance.paused = true; // For lua
+		FlxG.sound.music.volume = 0;
+		PlayState.instance.vocals.volume = 0;
+
+		if(noTrans)
+		{
+			FlxTransitionableState.skipNextTransIn = true;
+			FlxTransitionableState.skipNextTransOut = true;
+		}
+		MusicBeatState.resetState();
 	}
 
 	override function destroy()
