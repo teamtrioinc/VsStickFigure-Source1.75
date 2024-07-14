@@ -7,10 +7,6 @@ makeAnimatedLuaSprite('theboys','theboys',-200,250)
         addAnimationByPrefix('theboys','dance','idle',24,true)
         objectPlayAnimation('theboys','dance',false)
 
-makeAnimatedLuaSprite('aidaenkeptbeggingformetoaddhimtoirlsohere','aidaenkeptbeggingformetoaddhimtoirlsohere',0,0)
-        addAnimationByPrefix('aidaenkeptbeggingformetoaddhimtoirlsohere','dance','idle',24,true)
-        objectPlayAnimation('aidaenkeptbeggingformetoaddhimtoirlsohere','dance',false)
-
           makeAnimatedLuaSprite('drugaddictmario','drugaddictmario',1200,400)
         addAnimationByPrefix('drugaddictmario','dance','idle',24,true)
         objectPlayAnimation('drugaddictmario','dance',false)
@@ -27,7 +23,6 @@ makeAnimatedLuaSprite('sonic','sonic',600,300)
         objectPlayAnimation('sonic','dance',false)
 
 	addLuaSprite('irl', false);
-	addLuaSprite('aidaenkeptbeggingformetoaddhimtoirlsohere', false);
 	addLuaSprite('drugaddictmario', false)
 	addLuaSprite('sonic', false);
 	addLuaSprite('phonefigure', false);

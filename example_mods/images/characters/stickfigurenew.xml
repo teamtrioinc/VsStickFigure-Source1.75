@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="stickfigurenew.png">
+<SubTexture name="down0000" x="655" y="0" width="123" height="177" frameX="0" frameY="0" frameWidth="117" frameHeight="171" />
+<SubTexture name="down0001" x="314" y="368" width="121" height="178" frameX="0" frameY="0" frameWidth="115" frameHeight="172" />
+<SubTexture name="down0002" x="435" y="368" width="117" height="178" frameX="0" frameY="0" frameWidth="111" frameHeight="172" />
+<SubTexture name="idle0000" x="432" y="181" width="106" height="180" frameX="0" frameY="0" frameWidth="100" frameHeight="174" />
+<SubTexture name="idle0001" x="214" y="0" width="109" height="182" frameX="0" frameY="0" frameWidth="103" frameHeight="176" />
+<SubTexture name="idle0002" x="323" y="0" width="109" height="182" frameX="0" frameY="0" frameWidth="103" frameHeight="176" />
+<SubTexture name="left0000" x="539" y="0" width="116" height="180" frameX="0" frameY="0" frameWidth="110" frameHeight="174" />
+<SubTexture name="left0001" x="151" y="186" width="116" height="181" frameX="0" frameY="0" frameWidth="110" frameHeight="175" />
+<SubTexture name="left0002" x="267" y="186" width="109" height="181" frameX="0" frameY="0" frameWidth="103" frameHeight="175" />
+<SubTexture name="right0000" x="0" y="368" width="160" height="180" frameX="0" frameY="0" frameWidth="154" frameHeight="174" />
+<SubTexture name="right0001" x="160" y="368" width="154" height="180" frameX="0" frameY="0" frameWidth="148" frameHeight="174" />
+<SubTexture name="right0002" x="0" y="186" width="151" height="182" frameX="0" frameY="0" frameWidth="145" frameHeight="176" />
+<SubTexture name="up0000" x="0" y="0" width="107" height="186" frameX="0" frameY="0" frameWidth="101" frameHeight="180" />
+<SubTexture name="up0001" x="107" y="0" width="107" height="184" frameX="0" frameY="0" frameWidth="101" frameHeight="178" />
+<SubTexture name="up0002" x="432" y="0" width="107" height="181" frameX="0" frameY="0" frameWidth="101" frameHeight="175" />
+</TextureAtlas>
