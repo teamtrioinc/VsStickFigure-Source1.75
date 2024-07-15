@@ -641,15 +641,15 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Mod by'], 15);
+					createCoolText(['A Mod by'], 15);
 					#else
 					createCoolText(['replace me']);
 					#end
 				// credTextShit.visible = true;
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Lapis_Jude', 15);
-					addMoreText('SlimeyBMR', 15);
+					addMoreText('', 15);
+					addMoreText('Lapis_Jude', 30);
 					addMoreText('', 15);
 					#else
 					addMoreText('present');
@@ -696,7 +696,7 @@ class TitleState extends MusicBeatState
 					addMoreText('Funkin');
 				// credTextShit.text += '\nFunkin';
 				case 16:
-					addMoreText('Vs Stick Figure!'); // credTextShit.text += '\nVs Stick Figure!';
+					addMoreText('Vs Stick Figure 2.0'); // credTextShit.text += '\nVs Stick Figure 2.0';
 
 				case 17:
 					skipIntro();
