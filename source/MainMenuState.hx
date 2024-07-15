@@ -171,7 +171,7 @@ class MainMenuState extends MusicBeatState
 		
 		try
 		{
-		  var thing = Json.parse(Paths.getTextFromFile('images/gfDanceTitle.json'))
+		  var thing = Json.parse(Paths.getTextFromFile('images/gfDanceTitle.json'));
 		  Conductor.changeBPM(thing.bpm);
 		}
 		catch(e:Dynamic) {}
