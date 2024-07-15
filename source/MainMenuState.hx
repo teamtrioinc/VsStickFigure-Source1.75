@@ -158,10 +158,10 @@ class MainMenuState extends MusicBeatState
 
 		gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
 		gfDance.frames = Paths.getSparrowAtlas('stickfiguretitletemp');
-		//gfDance.animation.addByIndices('idle', 'idle', [1, 2, 3, 4], "", 24, true);
+		//gfDance.animation.addByIndices('idle', 'idle', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "", 24, true);
 		gfDance.animation.addByPrefix("idle", "idle", 24, true);
 		add(gfDance);
-		gfDance.setGraphicSize(750, 700);
+		gfDance.setGraphicSize(450, 300);
 		gfDance.scrollFactor.set(0,bg.scrollFactor.y);
 
 		super.create();
