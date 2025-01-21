@@ -1,81 +1,170 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-168,
 				513
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-225,
 				511
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-200,
 				597
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-195,
 				512
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
 		},
 		{
+			"loop": true,
 			"offsets": [
 				-115,
 				512
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
-		},
-		{
-			"offsets": [
-				40,
-				560
-			],
-			"loop": true,
 			"fps": 24,
-			"anim": "dead",
-			"indices": [],
-			"name": "fuckingdies"
+			"name": "idle",
+			"indices": []
 		},
 		{
-			"loop": true,
 			"offsets": [
 				179,
 				772
 			],
-			"anim": "gameover",
+			"loop": true,
 			"fps": 24,
-			"name": "mario gameover",
-			"indices": []
+			"anim": "gameover",
+			"indices": [],
+			"name": "mario gameover"
+		},
+		{
+			"offsets": [
+				0,
+				560
+			],
+			"indices": [
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			],
+			"fps": 24,
+			"anim": "dead",
+			"loop": true,
+			"name": "fuckingdies"
+		},
+		{
+			"offsets": [
+				0,
+				560
+			],
+			"indices": [
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": true,
+			"name": "fuckingdies"
+		},
+		{
+			"offsets": [
+				0,
+				560
+			],
+			"indices": [
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": true,
+			"name": "fuckingdies"
+		},
+		{
+			"offsets": [
+				0,
+				560
+			],
+			"indices": [
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": true,
+			"name": "fuckingdies"
+		},
+		{
+			"offsets": [
+				0,
+				560
+			],
+			"indices": [
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": true,
+			"name": "fuckingdies"
 		}
 	],
 	"no_antialiasing": false,

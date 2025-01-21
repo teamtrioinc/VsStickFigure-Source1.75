@@ -1,59 +1,32 @@
 {
-	"storyName": "sticking around",
-	"difficulties": "Normal, Hard",
-	"hideFreeplay": false,
-	"weekBackground": "sf",
-	"freeplayColor": [
-		146,
-		113,
-		253
+	"songs": [
+		[
+			"GAYTH0S",
+			"jude",
+			[
+				46,
+				33,
+				155
+			]
+		]
 	],
-	"weekBefore": "tutorial",
-	"startUnlocked": true,
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
 	"weekCharacters": [
 		"",
 		"",
 		""
 	],
-	"songs": [
-		[
-			"comical",
-			"sfnormal",
-			[
-				166,
-				153,
-				173
-			]
-		],
-		[
-			"worried",
-			"sfworried",
-			[
-				146,
-				133,
-				153
-			]
-		],
-		[
-			"deathray",
-			"sfgod",
-			[
-				86,
-				73,
-				93
-			]
-		],
-		[
-			"after-it-all",
-			"sfsad",
-			[
-				126,
-				113,
-				93
-			]
-		]
+	"storyName": "",
+	"weekName": "...",
+	"freeplayColor": [
+		146,
+		113,
+		253
 	],
 	"hideStoryMode": false,
-	"weekName": "stick figure",
-	"hiddenUntilUnlocked": false
+	"weekBefore": "tutorial",
+	"startUnlocked": true
 }

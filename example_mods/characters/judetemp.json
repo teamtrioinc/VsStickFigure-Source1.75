@@ -1,0 +1,127 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-126,
+				443
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-145,
+				431
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-145,
+				432
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-140,
+				447
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-140,
+				440
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-140,
+				440
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-140,
+				440
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-140,
+				440
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-145,
+				442
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": [
+				1,
+				2,
+				3,
+				2
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/tempjude",
+	"position": [
+		-270,
+		530
+	],
+	"healthicon": "judeirlangry",
+	"flip_x": false,
+	"healthbar_colors": [
+		31,
+		30,
+		26
+	],
+	"camera_position": [
+		-510,
+		-540
+	],
+	"sing_duration": 4,
+	"scale": 1.2
+}

@@ -110,8 +110,7 @@ function split(s, delimiter)
 end
 function luaGraphic(tag,x,y)
 	makeLuaSprite(tag, nil, x, y)
-	local theColor = getColorFromHex('000000')
-	makeGraphic(tag, screenWidth, 1, theColor)
+	makeGraphic(tag, screenWidth, 1, '000000')
 	setObjectCamera(tag, 'HUD')
 	addLuaSprite(tag)
 end
